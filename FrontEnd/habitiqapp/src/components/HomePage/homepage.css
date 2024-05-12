@@ -1,0 +1,15 @@
+/* homepage.css */
+
+.homepage-container {
+    text-align: center; /* Center align the content */
+    margin-top: 50px; /* Add some space from the top */
+  }
+  
+  .homepage-container h1 {
+    margin-bottom: 20px; /* Add some space below the heading */
+  }
+  
+  .homepage-container p {
+    margin-bottom: 40px; /* Add some space below the paragraph */
+  }
+  
