@@ -1,15 +1,33 @@
 /* homepage.css */
 
 .homepage-container {
-    text-align: center; /* Center align the content */
-    margin-top: 50px; /* Add some space from the top */
-  }
+  text-align: center; /* Center align the content */
+  background-image: url('C:\Users\mural\Downloads\sgreen.jpeg'); /* Add your image path here */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+  color: white; /* Set text color to white for better visibility */
+  padding: 50px; /* Add padding for better readability */
+  width: 100%; /* Set width to 100% of the viewport */
+  height: 100vh; /* Set height to 100% of the viewport height */
+  position: fixed; /* Fix the position so it covers the entire screen */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Set z-index to move it behind other content */
+  overflow: auto; /* Allow scrolling if content overflows */
+}
+
+.homepage-container h1,
+.homepage-container p {
+  text-align: center; /* Center align the heading and paragraph */
   
-  .homepage-container h1 {
-    margin-bottom: 20px; /* Add some space below the heading */
-  }
+}
+
+.homepage-container h1 {
+  margin-top: 15%; /* Adjust to move the heading down */
+  margin-bottom: 20px; /* Add some space below the heading */
   
-  .homepage-container p {
-    margin-bottom: 40px; /* Add some space below the paragraph */
-  }
-  
+}
+
+.homepage-container p {
+  margin-bottom: 40px; /* Add some space below the paragraph */
+}

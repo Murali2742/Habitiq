@@ -13,9 +13,13 @@ body {
 }
 
 .nav-container {
-  background-color: #333;
-  padding: 10px;
-  overflow: auto; /* Clear floats */
+ /* Change to a complementary color to beige green */
+ background-color: beige; /* Change to beige color */
+ text-decoration-color: black;
+ color: black; /* Set text color to black */
+ padding: 20px;
+ overflow: auto; /* Clear floats */
+ margin-bottom: -20px; /* Remove white space between navbar and home screen */
 }
 
 .nav-container ul {
@@ -30,7 +34,7 @@ body {
 }
 
 .nav-container ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 10px 20px;
 }

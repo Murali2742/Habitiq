@@ -1,21 +1,22 @@
 // LoginPage.jsx
 
 import React from 'react';
+import './loginpage.css'; // Import the LoginPage styles
 
 function LoginPage() {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen">
-      <h2 className="text-2xl font-semibold mb-4">Login</h2>
-      <form className="w-1/3">
+    <div className="login-container">
+      <h2 className="login-title">Login</h2>
+      <form className="login-form">
         <div className="mb-4">
-          <label htmlFor="username" className="block mb-2">Usernames:</label>
-          <input type="text" id="username" name="username" className="border border-gray-300 rounded-md p-2 w-full" />
+          <label htmlFor="username">Username:</label>
+          <input type="text" id="username" name="username" />
         </div>
         <div className="mb-4">
-          <label htmlFor="password" className="block mb-2">Password:</label>
-          <input type="password" id="password" name="password" className="border border-gray-300 rounded-md p-2 w-full" />
+          <label htmlFor="password">Password:</label>
+          <input type="password" id="password" name="password" />
         </div>
-        <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Login</button>
+        <button type="submit">Login</button>
       </form>
     </div>
   );
